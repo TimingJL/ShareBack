@@ -12,7 +12,7 @@ const FooterWrapper = styled.div`
   border-top: 4px solid ${MAIN_COLOR};
   background: ${FOOTER_BACKGROUND_COLOR};
   color: white;
-  flex: 1 1 auto;
+  flex: 0 1 100px; /* grow shrink basis */
   display: flex;
   justify-content: center;
   align-items: center;
