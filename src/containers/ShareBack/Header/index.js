@@ -4,6 +4,7 @@ import {
   NAV_BAR_HEIGHT,
   mixinWrapper,
   MAIN_COLOR,
+  PLATFORM_NAME,
 } from 'containers/ShareBack/constants';
 
 const NavBar = styled.div`
@@ -20,7 +21,7 @@ const NavBar = styled.div`
 
 const Header = () => (
   <NavBar>
-    <div className="nav-bar__banner">ShareBack</div>
+    <div className="nav-bar__banner">{PLATFORM_NAME}</div>
   </NavBar>
 );
 

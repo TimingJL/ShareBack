@@ -1,3 +1,4 @@
+export const PLATFORM_NAME = 'ShareBack';
 export const NAV_BAR_HEIGHT = 50;
 export const FOOTER_HEIGHT = 80;
 
