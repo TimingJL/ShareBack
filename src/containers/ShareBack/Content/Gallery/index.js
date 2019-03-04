@@ -1,7 +1,7 @@
 import React from 'react';
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from 'react-image-gallery';
-import BASIC_PYTHON_IMAGE from 'assets/images/basic-python.jpg';
+import BASIC_PYTHON_IMAGE from 'assets/images/basic-python.png';
 
 const Gallery = () => {
   const images = [

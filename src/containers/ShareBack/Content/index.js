@@ -1,8 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import {
-  mixinWrapper,
-} from 'containers/ShareBack/constants';
 import Gallery from './Gallery';
 
 const ContentWrapper = styled.div`

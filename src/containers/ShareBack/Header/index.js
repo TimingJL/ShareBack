@@ -10,7 +10,7 @@ import {
 const NavBar = styled.div`
   background: white;
   line-height: ${NAV_BAR_HEIGHT}px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 3px solid ${MAIN_COLOR};
   ${mixinWrapper()}
   .nav-bar__banner {
     font-family: 'Alfa Slab One', cursive;
