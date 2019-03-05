@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://timingjl.github.io/share-back",
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-image-gallery": "^0.8.14",

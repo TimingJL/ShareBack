@@ -5,7 +5,7 @@ import {
 } from 'containers/ShareBack/constants';
 
 const StyledDescription = styled.div`
-  padding: 8vh;
+  padding: 7vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +30,7 @@ const Description = () => {
     <StyledDescription>
       <div data-aos="fade-up" data-aos-duration="1500" className="description__title">Life is Fantastic</div>
       <div data-aos="fade-up" data-aos-duration="1500" className="description__content">這不是一個贏家全拿的世界</div>
-      <div data-aos="fade-up" data-aos-duration="1800" className="description__content">願意「給予」的人，往往反而能夠獲得更多！</div>
+      <div data-aos="fade-up" data-aos-duration="1800" className="description__content">願意「給予」的人，往往能夠獲得更多！</div>
     </StyledDescription>
   );
 };
